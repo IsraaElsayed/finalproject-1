@@ -30,5 +30,5 @@ kubectl get services --namespace jenkins    ---> then use externalip to open jen
 
 kubectl get pods -n jenkins
 
-kubectl logs <jenkins-pod-id>  -n jenkins       -----> to known password for jenkins
+kubectl logs  <jenkins-pod-id>  -n jenkins       -----> to known password for jenkins
   
