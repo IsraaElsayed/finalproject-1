@@ -20,6 +20,7 @@ connect to cluster
 
 gcloud container clusters get-credentials cluster_name --zone zone_name--project project_id
 
+kubectl apply -f jenkins.yml
 
 kubectl get pods -n jenkins
 
