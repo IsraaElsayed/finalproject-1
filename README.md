@@ -20,13 +20,6 @@ connect to cluster
 
 gcloud container clusters get-credentials cluster_name --zone zone_name--project project_id
 
-create namespace
-
-kubectl create namespace jenkins
-
-kubectl apply -f jenkins.yml --namespace jenkins
-
-kubectl get services --namespace jenkins    ---> then use externalip to open jenkins
 
 kubectl get pods -n jenkins
 
